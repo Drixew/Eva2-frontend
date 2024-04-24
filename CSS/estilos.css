@@ -1,17 +1,18 @@
 html body{
-    background-color: #3bbab3;
+    background-color: #d9fbfd;
     color: black;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .acercade{
     font-family: sans-serif;
-    font-size: 25px;
+    font-size: 10px;
 }
 
 #loginform{
     margin-top: 10px;
-    background-color: rgb(51, 138, 130);
+    background-color: #b6ecee;
+    border-radius: 15px;
 }
 
 p{
@@ -24,10 +25,19 @@ img{
 }
 
 footer{
-    background-color: rgb(3, 63, 58);
+    background-color: rgb(176, 241, 236);
 }
+
 .loginform{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#noticia13{
+    background-color: rgb(201, 248, 243);
+}
+
+#noticia2{
+    background-color: rgb(208, 241, 243);
 }
