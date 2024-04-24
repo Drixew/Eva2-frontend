@@ -9,28 +9,26 @@
 </head>
 <body>
     <!-- inicio navbar "header" -->
-    <nav>
-        <nav class="navbar navbar-expand-lg" style="background-color: #3bbab3;">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
-                    <img src="/fotosweb/logoclinica.jpeg" alt="Logo" width="90" height="90" class="d-inline-block align-text-center">
-                    Clinica llevatelo!
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="login.html">Iniciar Sesión</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="galeria.html">Galería</a>
-                        </li>
-                    </ul>
-                </div>
+    <nav class="navbar navbar-expand-lg" style="background-color: #ebf9fa;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="/fotosweb/logoclinica.jpeg" alt="Logo" width="90" height="90" class="d-inline-block align-text-center">
+                Clinica llevatelo!
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Iniciar Sesión</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeria.html">Galería</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
+        </div>
     </nav>
     <!-- fin navbar "header" -->
     <!-- inicio carousel -->
@@ -41,10 +39,10 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="/fotosweb/banner.png" class="d-block w-100" alt="...">
+                <img src="/fotosweb/venta1.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="/fotosweb/rat.jpg" class="d-block w-100" alt="...">
+                <img src="/fotosweb/promoclinicaaa.png" class="d-block w-100" alt="...">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -57,40 +55,34 @@
         </button>
     </div>
     <!-- fin carousel -->
-    <!-- inicio "acerca de" en div -->
-    <div>
-        <div class="container nav justify-content-center p-2" id="loginform">
-            <form>
-                <p>Iniciar Sesion</p>
-                <div class="mb-1">
-                    <label for="exampleFormControlInput1" class="form-label">Correo Electronico</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@gmail.com">
-                </div>
-                <div class="row g-3 align-items-center">
-                    <div>
-                        <label for="inputPassword6" class="col-form-label">Contraseña</label>
-                        <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
-                        <span id="passwordHelpInline" class="form-text align-items-end">
-                        Contraseña debe ser de 8-20 carácteres
-                        </span>
-                    </div>
-                </div>
-                <div class=" row align-items-center">
-                    <button type="submit" class="btn btn-primary mb-3 mt-3">Ingresar</button>
-                </div>
-            </form>
-        </div>
+    <!-- inicio "login form" -->
+    <div class="container nav justify-content-center p-2" id="loginform">
+        <form>
+            <div class="mb-1">
+                <p class=" d-flex justify-content-center">Iniciar Sesion</p>
+                <label for="exampleFormControlInput1" class="form-label">Correo Electronico</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@gmail.com">
+            </div>
+            <div>
+                <label for="inputPassword6" class="col-form-label">Contraseña</label>
+                <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline" placeholder="123AbcD@-">
+                <span id="passwordHelpInline" class="form-text align-items-end">
+                Contraseña debe ser de 8-20 carácteres
+                </span>
+            </div>
+            <div class=" d-flex align-items-center justify-content-center">
+                <button type="submit" class=" btn btn-primary mb-3 mt-3">Ingresar</button>
+            </div>
+        </form>
     </div>
-    <!-- fin "loginform" en div -->
+    <!-- fin "loginform" -->
     <!-- inicio footer -->
     <footer>
-        <div class="container justify-content-center p-2 mt-4">
-            <ul class="nav justify-content-center">
-                <li class="nav-item p-2">
-                    <p>Asignatura: Programación Front-End</p>
-                </li>
-            </ul>
-        </div>
+        <ul class="nav justify-content-center p-2 mt-4">
+            <li class="nav-item p-2">
+                <p>Asignatura: Programación Front-End</p>
+            </li>
+        </ul>
     </footer>
     <!-- fin footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
